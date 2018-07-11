@@ -27,7 +27,7 @@ body {
 	width: 100wh;
 	height: 90vh;
 	color: #fff;
-	background: radial-gradient(#251605, #F6E27F, #E2C391);
+	background: ilnear-gradient(#251605, #F6E27F, #E2C391);
 	background-size: 500% 500%;
 	-webkit-animation: Gradient 30s ease infinite;
 	-moz-animation: Gradient 30s ease infinite;
