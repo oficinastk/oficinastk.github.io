@@ -28,8 +28,8 @@ body {
 	height: 90vh;
 	color: #fff;
 	background: #c31432;
-	background: -webkit-linear-gradient(to left, #A7226E, #F7DB4F);
-	background: linear-gradient(to left, #A7226E, #F7DB4F);
+	background: -webkit-linear-gradient(to right, #A7226E, #83A0A6);
+	background: linear-gradient(to right, #A7226E, #83A0A6);
 
 }
 
