@@ -1,27 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script src='https://aframe.io/releases/0.8.0/aframe.min.js'></script>
+  <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
   <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
 </head>
   <body>
-     <a-scene embedded arjs>
-      <a-marker type="custom" url="https://raw.githubusercontent.com/oficinastk/webAR/master/sol.patt">
+     <a-scene embedded arjs="trackingMethod: best; debugUIEnabled:false">
+      <a-assets>
          <a-asset-item id="brainstem" src="https://raw.githubusercontent.com/oficinastk/webAR/master/pedras.gltf"></a-asset-item>
       </a-assets>
-      <a-entity position="0 0 0">
-        <a-entity gltf-model="#brainstem" position="0 0 0" scale="0.2 0.2 0.2"></a-entity>
-<!--         <a-text value="glTF" color="#000000" position="9.75 -2 6" scale="0.5 0.5 1.5"></a-text> -->
-           
+	<a-marker preset="custom" type="pattern" url="https://raw.githubusercontent.com/oficinastk/webAR/master/sol.patt">
+        	<a-entity gltf-model="#brainstem" position="0 0 0" scale="0.2 0.2 0.2"></a-entity>           
   	</a-marker>
   	<a-entity camera></a-entity>
-      <a-assets>
-        <!-- <a-asset-item id="crate-obj" src="../pedra.obj"></a-asset-item>'
-        <a-asset-item id="crate-mtl" src="../pedra.mtl"></a-asset-item> -->
-       
-        <!-- <a-entity obj-model="obj: #crate-obj; mtl: #crate-mtl" position="5 0 5"></a-entity>
-        <a-entity obj-model="obj: #crate-obj; mtl: #crate-mtl" position="5 2 5"></a-entity>
-        <a-text value="OBJ" color="#000000" position="4.75 -2 6" scale="1.5 1.5 1.5"></a-text> -->
-      </a-entity>
     </a-scene>
 	</body>
