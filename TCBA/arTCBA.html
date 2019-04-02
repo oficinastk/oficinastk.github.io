@@ -8,13 +8,13 @@
   </head>
   <body>
 
-    <a-scene embedded arjs='trackingMethod: best; debugUIEnabled:false'>
+    <a-scene embedded arjs='trackingMethod: best; debugUIEnabled: false'>
       <a-assets>
         <a-asset-item id="tcba" src="https://raw.githubusercontent.com/oficinastk/Thoreau.Centre.Blockchain.Arts/master/3Dmodel/TCBA.gltf"></a-asset-item>
       </a-assets>
 	    
       <a-marker preset='custom' type='pattern' url='https://raw.githubusercontent.com/oficinastk/Thoreau.Centre.Blockchain.Arts/master/AugmentedTCBA/arTCBApattern.patt'>
-        <a-entity gltf-model="#tcba" rotation="0 180 0" position="50 0 50" scale="0.3 0.3 0.3"></a-entity>
+        <a-entity gltf-model="#tcba" rotation="0 180 0" position="50 0 0" scale="0.3 0.3 0.3"></a-entity>
       </a-marker>
 	    
       <a-entity camera></a-entity>
