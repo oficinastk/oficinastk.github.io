@@ -8,15 +8,24 @@
 
   <body>
 
-    <a-scene embedded arjs='trackingMethod: best; debugUIEnabled: true; markersAreaEnabled: true'>
+    <a-scene embedded arjs='trackingMethod: best; debugUIEnabled:true'>
 
-   	<a-marker preset='custom' type='pattern' url='https://raw.githubusercontent.com/oficinastk/Thoreau.Centre.Blockchain.Arts/master/AugmentedTCBA/arTCBApattern.patt'>
+      <a-assets>
+  	     <a-asset-item id="TCBA" src="https://raw.githubusercontent.com/oficinastk/Thoreau.Centre.Blockchain.Arts/master/AugmentedTCBA/TCBA.obj"></a-asset-item>
+      </a-assets>
 
-        <a-entity
-        obj-model="obj: url(https://raw.githubusercontent.com/oficinastk/Thoreau.Centre.Blockchain.Arts/master/AugmentedTCBA/TCBA.obj);
-        mtl: url(https://raw.githubusercontent.com/oficinastk/Thoreau.Centre.Blockchain.Arts/master/AugmentedTCBA/TCBA.mtl)">
-        </a-entity>
+	   	<a-marker preset='custom' type='pattern' url='https://raw.githubusercontent.com/oficinastk/Thoreau.Centre.Blockchain.Arts/master/AugmentedTCBA/arTCBApattern.patt'>
 
+        	<a-entity obj-model="#TCBA" position="0 0 0" scale="0.2 0.2 0.2"></a-entity>
+
+        
+               <a-entity 
+                    obj-model="obj: url(https://raw.githubusercontent.com/oficinastk/Thoreau.Centre.Blockchain.Arts/master/AugmentedTCBA/TCBA.obj); 
+                    mtl: url(https://raw.githubusercontent.com/oficinastk/Thoreau.Centre.Blockchain.Arts/master/AugmentedTCBA/TCBA.mtl)">
+                </a-entity>
+        
+
+        
 	    </a-marker>
 
 
