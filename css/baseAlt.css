@@ -28,11 +28,11 @@ body {
 	height: 100%;
 	color: #fff;
 	
-	background: rgb(34,193,195);
-  background: -moz-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-  background: -webkit-linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
+	background: rgb(249,247,161);
+	background: -moz-radial-gradient(circle, rgba(249,247,161,1) 0%, rgba(204,0,15,1) 100%);
+	background: -webkit-radial-gradient(circle, rgba(249,247,161,1) 0%, rgba(204,0,15,1) 100%);
+	background: radial-gradient(circle, rgba(249,247,161,1) 0%, rgba(204,0,15,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f7a1",endColorstr="#cc000f",GradientType=1);
 
 }
 
