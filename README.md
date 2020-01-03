@@ -1,7 +1,7 @@
 ## oficinastk.github.io
 otk | selected works
 
-*just a small selection of works by OTK, not really much to tell.
+*a small selection of works by OTK, which include self-published translations, prints, cyanotypes, blockchain art and all sorts of experiments.
  
                 
 
