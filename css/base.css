@@ -39,7 +39,7 @@ body {
 
 h1,
 h6 {
-	font-family: 'Open Sans';
+	font-family: 'Bebas Neue', cursive;
 	font-weight: 300;
 	text-align: center;
 	position: absolute;
@@ -76,7 +76,7 @@ p {
 	max-width: 634px;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Ultra', serif;
+	font-family: 'Bebas Neue', cursive;
 	font-weight: normal;
 	line-height: 1.2em;
 	padding: 0.5em 0 0.25em;
@@ -191,7 +191,7 @@ a.bttn {
 	background: #000000;
 	color: #fff;
 	display: inline-block;
-	font-family: 'Julius Sans One', cursive;
+	font-family: 'Bebas Neue', cursive;
 	font-size: 1em;
 	font-weight: bold;
 	margin: 0.2em 0;
@@ -213,7 +213,7 @@ a.bttn {
 
 	border-right: 1px solid #ccc;
 	border-bottom: 1px solid #ccc;
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Bebas Neue', cursive;
 	font-size: 14px;
 	color: #FFFFFF;
 	padding: 0.5em;
