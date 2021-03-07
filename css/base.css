@@ -28,10 +28,26 @@ body {
 	height: 100%;
 	color: #fff;
 	
-	background: -webkit-linear-gradient(to right, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%) fixed;
-	background: linear-gradient(to right, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%) fixed;
 
+	background: rgb(131,58,180);
+	background: linear-gradient(45deg, #000000 0%, #FFFFF0 50%, #FAEBD7 100%);
+	background-size: 150% 150%;
+	animation: gradient 10s ease infinite;
 }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
 
 
 
@@ -158,7 +174,7 @@ hr {
 }
 
 .row {
-	margin-bottom: 1em;
+	margin-bottom: 0em;
 }
 
 .feature h2 {
@@ -232,6 +248,7 @@ a.bttn {
 .modelos1{background: #A7226E;}
 .design1{background: #2F9599;}
 .preto1{background: #0d0d0d;}
+
 }
 
 .footer p {
