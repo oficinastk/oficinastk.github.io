@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgb(0, 47, 167); display: block; shape-rendering: auto;" width="100%" height="100%x" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgb(254, 178, 0); display: block; shape-rendering: auto;" width="100%" height="100%x" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
 <defs>
-  <filter id="ldio-j9j02uidyeb-filter" x="-100%" y="-100%" width="300%" height="300%" color-interpolation-filters="sRGB">
+  <filter id="ldio-j9j02uidyeb-filter" x="-50%" y="-100%" width="300%" height="300%" color-interpolation-filters="sRGB">
     <feGaussianBlur in="SourceGraphic" stdDeviation="8.2"></feGaussianBlur>
     <feComponentTransfer result="cutoff">
       <feFuncA type="table" tableValues="0 0 0 0 0 0 1 1 1 1 1"></feFuncA>
